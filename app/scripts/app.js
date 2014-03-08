@@ -1,10 +1,8 @@
 'use strict';
 
 angular.module('parselApp', [
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'firebase'
 ])
   .config(function ($routeProvider) {
     $routeProvider
