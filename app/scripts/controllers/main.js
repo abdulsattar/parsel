@@ -10,5 +10,6 @@ angular.module('parselApp')
       if(e.keyCode !== 13) { return; }
 
       Activity.add($scope.newMessage);
+      $scope.newMessage = '';
     };
   });
